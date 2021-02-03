@@ -22,4 +22,4 @@ def led(i):
     index_rear_led = 0 if index_rear_led == 800 else index_rear_led
 
 tim0 = Timer(0)
-tim0.init(period=1, mode=Timer.PERIODIC, callback=lambda t: index_ms())
+tim0.init(period=3, mode=Timer.PERIODIC, callback=lambda t: index_ms())
